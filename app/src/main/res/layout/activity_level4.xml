@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8073b9ff">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <TextView
+            android:id="@+id/turns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turns:"
+            android:textSize="32dp"/>
+    </RelativeLayout>
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/thirdSetoFIC">
+        <View
+            android:id="@+id/andGate4a"
+            android:layout_width="12dp"
+            android:layout_height="80dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate4b"
+            android:layout_width="35dp"
+            android:layout_height="12dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate2c"
+            android:layout_width="12dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="64dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate2d"
+            android:layout_width="45dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_alignTop="@+id/andGate2c"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/orGate4a"
+            android:layout_width="12dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="128dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/orGate4b"
+            android:layout_width="35dp"
+            android:layout_height="12dp"
+            android:layout_alignTop="@+id/orGate4a"
+            android:layout_marginLeft="100dp"
+            android:background="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/secondSetoFIC">
+        <View
+            android:id="@+id/orGate3a"
+            android:layout_width="12dp"
+            android:layout_height="120dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/orGate3b"
+            android:layout_width="60dp"
+            android:layout_height="12dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire2e"
+            android:layout_width="12dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="64dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate2a"
+            android:layout_width="12dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="128dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate2b"
+            android:layout_width="60dp"
+            android:layout_height="12dp"
+            android:layout_alignRight="@id/andGate2a"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire4e"
+            android:layout_width="12dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="194dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate3a"
+            android:layout_width="12dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="256dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate3b"
+            android:layout_width="60dp"
+            android:layout_height="12dp"
+            android:layout_alignRight="@+id/andGate3a"
+            android:background="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/secondSetoFIC">
+        <View
+            android:id="@+id/orGate1"
+            android:layout_width="12dp"
+            android:layout_height="140dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire2c"
+            android:layout_width="12dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="64dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire2d"
+            android:layout_width="120dp"
+            android:layout_height="12dp"
+            android:layout_alignTop="@id/wire2c"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/andGate1"
+            android:layout_width="12dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="128dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire4c"
+            android:layout_width="12dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="194dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire4d"
+            android:layout_width="60dp"
+            android:layout_height="12dp"
+            android:layout_alignLeft="@id/wire4c"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/orGate2"
+            android:layout_width="12dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="256dp"
+            android:background="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/firstSetoFIC">
+
+        <View
+            android:id="@+id/wire1"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire2a"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="64dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire2b"
+            android:layout_width="50dp"
+            android:layout_height="12dp"
+            android:layout_alignRight="@+id/wire2a"
+            android:layout_marginLeft="32dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire3"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="128dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire4a"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="194dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire4b"
+            android:layout_width="100dp"
+            android:layout_height="12dp"
+            android:layout_alignTop="@+id/wire4a"
+            android:layout_marginLeft="150dp"
+            android:background="@android:color/holo_red_dark"/>
+        <View
+            android:id="@+id/wire5"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="256dp"
+            android:background="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:id="@+id/thirdSetoFIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/secondSetoFIC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/andGateColor4"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp">
+
+            <View
+                android:id="@+id/orGateColor4"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/or_gate" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:id="@+id/secondSetoFIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/orGateColor3"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/or_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp">
+
+            <View
+                android:id="@+id/andGateColor2"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="256dp">
+
+            <View
+                android:id="@+id/andGateColor3"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:id="@+id/firstSetoFIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/secondSetoFIC"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/secondSetoFIC"
+        android:layout_marginBottom="128dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/orGateColor1"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/or_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp">
+
+            <View
+                android:id="@+id/andGateColor1"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="256dp">
+
+            <View
+                android:id="@+id/orGateColor2"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/or_gate" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start of Button-->
+    <RelativeLayout
+        android:id="@+id/switches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp">
+
+        <ImageView
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="192dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="256dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+    </RelativeLayout>
+    <!--End of Button-->
+    <!--Start-->
+    <RelativeLayout
+        android:id="@+id/outputLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/thirdSetoFIC"
+        android:layout_marginBottom="64dp">
+        <ImageView
+            android:id="@+id/outputLed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/led_red"/>
+        <ImageView
+            android:id="@+id/outputLed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/led_red"/>
+    </RelativeLayout>
+    <!--End-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp">
+        <ImageView
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next_button"/>
+    </RelativeLayout>
+</RelativeLayout>

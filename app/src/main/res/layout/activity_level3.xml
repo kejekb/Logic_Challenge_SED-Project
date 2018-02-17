@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8073b9ff"
+    tools:context="com.example.kevinbalauro.logicchallenge.Level3">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <TextView
+            android:id="@+id/turns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turns:"
+            android:textSize="32dp"/>
+    </RelativeLayout>
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/setOfIC3"
+        android:layout_alignLeft="@+id/setOfIC1"
+        android:layout_alignStart="@+id/setOfIC1">
+
+        <View
+            android:id="@+id/andGate3a"
+            android:layout_width="12dp"
+            android:layout_height="90dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate3b"
+            android:layout_width="75dp"
+            android:layout_height="12dp"
+            android:background="@android:color/holo_red_dark"/>
+
+        <View
+            android:id="@+id/andGate4a"
+            android:layout_width="12dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="135dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate4b"
+            android:layout_width="90dp"
+            android:layout_height="12dp"
+            android:layout_alignRight="@+id/andGate4a"
+            android:layout_alignTop="@+id/andGate4a"
+            android:background="@android:color/holo_red_dark" />
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/relativeLayout5"
+        android:layout_alignLeft="@+id/relativeLayout5"
+        android:layout_alignBottom="@+id/setOfIC2">
+
+        <View
+            android:id="@+id/wire1d"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/wire1e"
+            android:layout_width="50dp"
+            android:layout_height="12dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate2a"
+            android:layout_width="12dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/wire1d"
+            android:layout_marginLeft="130dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate2b"
+            android:layout_width="100dp"
+            android:layout_height="12dp"
+            android:layout_alignTop="@id/andGate2a"
+            android:layout_marginLeft="75dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate2c"
+            android:layout_width="12dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/andGate2b"
+            android:layout_alignLeft="@+id/andGate2b"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate2d"
+            android:layout_width="12dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/andGate2b"
+            android:layout_alignRight="@+id/andGate2b"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/orGate2a"
+            android:layout_width="12dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="260dp"
+            android:layout_alignBottom="@id/wire1d"
+            android:background="@android:color/holo_red_dark" />
+        <View
+        android:id="@+id/orGate2b"
+        android:layout_width="70dp"
+        android:layout_height="12dp"
+        android:layout_alignRight="@+id/orGate2a"
+        android:layout_alignTop="@id/orGate2a"
+        android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/orGate2c"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@id/orGate2b"
+            android:layout_alignBottom="@id/orGate2b"
+            android:background="@android:color/holo_red_dark" />
+    </RelativeLayout>
+    <!--End-->
+    <!--Start of Wire-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/setOfIC1"
+        android:layout_alignLeft="@+id/relativeLayout5"
+        android:layout_alignStart="@+id/relativeLayout5">
+
+        <View
+            android:id="@+id/wire1c"
+            android:layout_width="12dp"
+            android:layout_height="110dp"
+            android:background="@android:color/holo_red_dark" />
+            <View
+                android:id="@+id/orGate1a"
+                android:layout_width="12dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="75dp"
+                android:layout_alignBottom="@id/wire1c"
+                android:background="@android:color/holo_red_dark" />
+            <View
+                android:id="@+id/orGate1b"
+                android:layout_width="50dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="75dp"
+                android:layout_alignTop="@id/orGate1a"
+                android:background="@android:color/holo_red_dark" />
+            <View
+                android:id="@+id/orGate1c"
+                android:layout_width="12dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="115dp"
+                android:layout_alignBottom="@id/orGate1b"
+                android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate1a"
+            android:layout_width="12dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_alignBottom="@id/wire1c"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate1b"
+            android:layout_width="100dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="150dp"
+            android:layout_alignTop="@id/andGate1a"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate1c"
+            android:layout_width="12dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="150dp"
+            android:layout_alignBottom="@id/andGate1b"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/andGate1d"
+            android:layout_width="12dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="250dp"
+            android:layout_alignBottom="@id/andGate1b"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/wire4c"
+            android:layout_width="12dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="275dp"
+            android:background="@android:color/holo_red_dark" />
+        android:background="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+    <!--End of Wire-->
+    <!--Start of Wire-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/relativeLayout8"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout5">
+
+        <View
+            android:id="@+id/wire1a"
+            android:layout_width="60dp"
+            android:layout_height="12dp"
+            android:layout_alignBottom="@id/wire1b"
+            android:background="@android:color/holo_red_dark" />
+
+        <View
+            android:id="@+id/wire1b"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <View
+            android:id="@+id/wire1"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="44dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <View
+            android:id="@+id/wire2"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="102dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <View
+            android:id="@+id/wire3"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="172dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/wire4"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="228dp"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/wire4a"
+            android:layout_width="58dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="228dp"
+            android:layout_alignBottom="@id/wire4b"
+            android:background="@android:color/holo_red_dark" />
+        <View
+            android:id="@+id/wire4b"
+            android:layout_width="12dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="275dp"
+            android:background="@android:color/holo_red_dark" />
+    </RelativeLayout>
+    <!--End of Wire-->
+    <!--Start-->
+    <RelativeLayout
+        android:id="@+id/setOfIC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setOfIC2"
+        android:layout_alignEnd="@+id/setOfIC1"
+        android:layout_alignRight="@+id/setOfIC1"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/andGateColor3"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="#FF0000" />
+
+            <ImageView
+                android:id="@+id/andGate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp">
+
+            <View
+                android:id="@+id/andGateColor4"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="#FF0000" />
+
+            <ImageView
+                android:id="@+id/andGate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+        android:id="@+id/setOfIC2">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/andGateColor2"
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:background="#FF0000" />
+
+                <ImageView
+                    android:id="@+id/andGate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="60dp"
+                    android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp">
+
+            <View
+                android:id="@+id/orGateColor2"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="#FF0000" />
+
+            <ImageView
+                android:id="@+id/orGate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/or_gate" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start-->
+    <RelativeLayout
+        android:id="@+id/setOfIC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/orGateColor1"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="#FF0000" />
+
+            <ImageView
+                 android:id="@+id/orGate1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:adjustViewBounds="true"
+                 android:maxHeight="60dp"
+                 android:maxWidth="60dp"
+                 android:scaleType="fitCenter"
+                 android:src="@drawable/or_gate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp">
+
+            <View
+                android:id="@+id/andGateColor1"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="#FF0000" />
+
+            <ImageView
+                android:id="@+id/andGate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="60dp"
+                android:maxWidth="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/and_gate" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--End-->
+    <!--Start of Switch-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/setOfIC3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/setOfIC3"
+        android:layout_marginBottom="68dp"
+        android:id="@+id/relativeLayout8">
+
+        <ImageView
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+
+        <ImageView
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="192dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_red" />
+    </RelativeLayout>
+    <!--End of Switch-->
+    <!--Start-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setOfIC3"
+        android:layout_alignLeft="@+id/setOfIC2"
+        android:layout_alignStart="@+id/setOfIC2"
+        android:layout_marginBottom="42dp">
+
+        <ImageView
+            android:id="@+id/outputLed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="75dp"
+            android:maxWidth="75dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/led_red" />
+    </RelativeLayout>
+    <!--End-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="75dp"
+            android:maxWidth="75dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next_button" />
+    </RelativeLayout>
+</RelativeLayout>
